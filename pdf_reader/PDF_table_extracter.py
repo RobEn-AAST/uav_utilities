@@ -6,6 +6,13 @@ import docx
 import csv
 import os
 
+"""
+How to use:
+1. Put the PDF you want to be read in the "Input" folder.
+2. Run the code.
+3. Each table will be turned into .csv file in the "Output" folder.
+"""
+
 # Function used to know if a number is a string.
 def is_float(string):
     try:
