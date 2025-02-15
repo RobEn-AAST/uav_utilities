@@ -1,7 +1,7 @@
 import subprocess
 
-# COM = "/dev/ttyACM0"
-COM = "/dev/ttyUSB0"
+# COM = "/dev/ttyACM0" # for usb connection on linux systems
+COM = "/dev/ttyUSB0" # for do3 connection on linux system
 
 PORT = "14550"
 BAUDRATE = "115200"
@@ -15,4 +15,5 @@ def add_mavproxy_output(ip_list):
     print("RUNNING----")
     subprocess.run(command, shell=True, check=True)
 
-add_mavproxy_output(range(5, 255))
+ips_list = range(5, 25)
+add_mavproxy_output(ips_list)
