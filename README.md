@@ -21,6 +21,7 @@ A collection of utility tools for UAV (Unmanned Aerial Vehicle) systems. This re
 ### Prerequisites
 - List any dependencies or requirements here
 - Include any specific hardware/software requirements
+- Install "pdf2docx" and "docx" using "pip install"
 
 ### Installation
 ```bash
